@@ -33,6 +33,7 @@ variable "org_id" {
 
 variable "billing_account" {
   description = "The ID of the billing account to associate with the project"
+  default = "01996A-542D80-7B6370"
 }
 
 variable "owner_email" {
