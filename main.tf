@@ -9,7 +9,7 @@ resource "google_project" "project" {
   name             = local.project_name
   project_id       = local.project_name
   labels           = var.labels
-  billing_account  = var.billing_account
+  billing_account  = "01996A-542D80-7B6370"
   folder_id        = var.folder_id[var.environment]
 }
 

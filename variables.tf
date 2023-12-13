@@ -26,7 +26,7 @@ variable "activate_apis" {
   type = list(string)
   default     = [""]
 }
-
+/*
 variable "org_id" {
   description = "The ID of the organization in which to create the project"
 }
@@ -35,6 +35,7 @@ variable "billing_account" {
   description = "The ID of the billing account to associate with the project"
   default = "01996A-542D80-7B6370"
 }
+*/
 
 variable "owner_email" {
   description = "The email address of the project owner"
